@@ -246,7 +246,7 @@ const themeConfig = {
 export default {
 	lang: "zh-CN",
 	label: "简体中文",
-    title: localeData.title,
-    description: localeData.description,
-    themeConfig: themeConfig
+	title: localeData.title,
+	description: localeData.description,
+	themeConfig: themeConfig
 }
