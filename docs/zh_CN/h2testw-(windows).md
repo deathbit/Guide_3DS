@@ -2,27 +2,27 @@
 
 ## Required Reading
 
-本附加章节将介绍如何使用 h2testw 来检查你的 SD 卡是否有错误。
+This is an add-on section for checking your SD card for errors using h2testw.
 
-这个操作的耗时取决于你的 SD 卡的容量大小和电脑的速度，可能将耗费数个小时完成！
+Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
 
-本节教程仅限 Windows 用户。 如果你不用 Windows，请查阅 [F3XSwift（Mac）](f3xswift-\(mac\)) 或 [F3（Linux）](f3-\(linux\))页面。
+This page is for Windows users only. If you are not on windows, check out the [F3 (Linux)](f3-(linux)) or [F3XSwift (Mac)](f3xswift-(mac)) pages.
 
 ## What You Need
 
-- The latest version of [h2testw](https://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
+* The latest version of [h2testw](https://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
 
 ## Instructions
 
-1. 解压缩 `h2testw` 压缩包，复制 `h2testw.exe` 文件到桌面
-2. 将你的 SD 卡插入到电脑
-3. 运行 `h2testw.exe`
-4. 选择 “English”
-5. 点击 “Select target”
-6. 选择 SD 卡对应的盘符
-7. 确保 “all available space” 已勾选
-8. 点击 “Write + Verify”
-9. 等待测试完成
+1. Copy `h2testw.exe` from the h2testw `.zip` to your desktop
+1. Insert your SD card into your computer
+1. Run `h2testw.exe`
+1. Select "English"
+1. Click "Select target"
+1. Select your SD card's drive letter
+1. Ensure "all available space" is selected
+1. Click "Write + Verify"
+1. Wait until the process is completed
 
 ::: tip
 
@@ -32,7 +32,7 @@ If the test shows the result `Test finished without errors`, your SD card is goo
 
 ::: danger
 
-如果测试显示任何其他结果，则你的 SD 卡可能已经出错或损坏，你可能需要更换一张 SD卡 ！
+If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
 
 :::
 

@@ -1,3 +1,4 @@
+
 When creating the MSET9 ID1 on Windows 10 and above, the script may fail with this error:
 
 ![](/images/screenshots/troubleshooting/234.png)
@@ -12,7 +13,7 @@ This occurs because of the beta UTF-8 support in Windows. You must disable it to
 
     :::
 
-2. Click on `Administrative`, then `Change System Locale`
+1. Click on `Administrative`, then `Change System Locale`
 
     ::: info
 
@@ -26,7 +27,7 @@ This occurs because of the beta UTF-8 support in Windows. You must disable it to
 
     :::
 
-3. Uncheck the box next to `Beta: Use Unicode UTF-8 for worldwide language support` then click "OK"
+1. Uncheck the box next to `Beta: Use Unicode UTF-8 for worldwide language support` then click "OK"
 
     ::: info
 
@@ -34,7 +35,7 @@ This occurs because of the beta UTF-8 support in Windows. You must disable it to
 
     :::
 
-4. Click "Restart Now"
+1. Click "Restart Now"
 
     ::: info
 

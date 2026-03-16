@@ -2,42 +2,42 @@
 
 ## Required Reading
 
-本附加章节用来介绍如何使用 F3XSwift 来检查你的 SD 卡有无问题。
+This is an add-on section for checking your SD card for errors using F3XSwift.
 
-这个操作的耗时取决于你的 SD 卡的容量大小和电脑的速度，可能将耗费数个小时完成！
+Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
 
-本页教程仅限 Mac 用户。 如果你的操作系统不是 Mac，参见 [H2testw (Windows)](h2testw-\(windows\)) 或 [F3 (Linux)](f3-\(linux\)) 页面。
+This page is for Mac users only. If you are not on Mac, check out the [H2testw (Windows)](h2testw-(windows)) or [F3 (Linux)](f3-(linux)) pages.
 
 ::: info
 
-F3XSwift 只兼容 macOS 10.13（High Sierra）及以上版本。 如果你正在使用旧版本的 macOS，请换用 [F3X (Mac)](f3x-\(mac\))
+F3XSwift is only compatible with macOS 10.13 (High Sierra) and above. If you have an older version of macOS, follow [F3X (Mac)](f3x-(mac)) instead.
 
 :::
 
 ## What You Need
 
-- The latest release of [F3XSwift](https://github.com/vrunkel/F3XSwift/releases/latest)
+* The latest release of [F3XSwift](https://github.com/vrunkel/F3XSwift/releases/latest)
 
 ## Instructions
 
-1. 将你的 SD 卡插入到电脑
-2. 运行 F3XSwift 应用
-3. 从卷列表中选择你的 SD 卡
-4. 点击“测试（Test）”
-5. 点击“打开（Open）”来确认写入 SD 卡
-6. 等待检查完成
+1. Insert your SD card into your computer
+1. Run the F3XSwift app
+1. Select your SD card from the list of volumes
+1. Click "Test"
+1. Click "Open" to confirm writing to your SD card
+1. Wait until the process is complete
 
 ___
 
 ::: tip
 
-如果测试结果显示 `Success! Your card is ok!`, your SD card is good and you can delete all `.h2w` files on your SD card.
+If the test shows the result `Success! Your card is ok!`, your SD card is good and you can delete all `.h2w` files on your SD card.
 
 :::
 
 ::: danger
 
-如果测试显示任何其他结果，则你的 SD 卡可能已经出错或损坏，你可能需要更换一张 SD卡 ！
+If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
 
 :::
 

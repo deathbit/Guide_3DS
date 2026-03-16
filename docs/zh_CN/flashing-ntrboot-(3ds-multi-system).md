@@ -4,57 +4,57 @@
 
 Before proceeding, ensure you have read all of the information on [ntrboot](ntrboot).
 
-This method requires temporary access to a second 3DS family console that is already running boot9strap. 你的烧录卡在本方法中不受 3DS 系统版本的限制。
+This method requires temporary access to a second 3DS family console that is already running boot9strap. This does not require your flashcart to support either 3DS's version.
 
 ::: danger
 
-请注意，极少见的情況下某些伪劣烧录卡有可能会在破解过程中坏掉且无法恢复。 这不太可能， 但无论如何我们只支持写在兼容表格中的烧录卡。 To reduce the chance of receiving a counterfeit card, it is recommended that you use a reputable site to buy your flashcart (such as [NDS Card](https://www.nds-card.com/)).
+Note that in some rare circumstances, it may be possible for the flashing process to **brick** a counterfeit flashcart and render it permanently unusable. This is unlikely, but nevertheless, only original listed flashcarts are supported. To reduce the chance of receiving a counterfeit card, it is recommended that you use a reputable site to buy your flashcart (such as [NDS Card](https://www.nds-card.com/)).
 
 :::
 
 ## What You Need
 
-- Your ntrboot compatible flashcart
-- Two 3DS family consoles
-    - **The source 3DS**: the 3DS family console that is already running boot9strap
-    - **The target 3DS**: the 3DS family console on stock firmware
-- The v1.3 release of [boot9strap-ntr](https://github.com/SciresM/boot9strap/releases/download/1.3/boot9strap-1.3-ntr.zip) (direct download)
-- The latest release of [ntrboot_flasher](https://github.com/ntrteam/ntrboot_flasher/releases/latest) (`ntrboot_flasher.firm`)
+* Your ntrboot compatible flashcart
+* Two 3DS family consoles
+    * **The source 3DS**: the 3DS family console that is already running boot9strap
+    * **The target 3DS**: the 3DS family console on stock firmware
+* The v1.3 release of [boot9strap-ntr](https://github.com/SciresM/boot9strap/releases/download/1.3/boot9strap-1.3-ntr.zip) (direct download)
+* The latest release of [ntrboot_flasher](https://github.com/ntrteam/ntrboot_flasher/releases/latest) (`ntrboot_flasher.firm`)
 
 ## Instructions
 
 ### Section I - Prep Work
 
-1. 关闭\*\*源 3DS \*\*
-2. 将\*\*源 3DS \*\*的 SD 卡插入你的电脑
-3. 在 SD 卡根目录创建一个名为 `ntrboot` 的文件夹
-4. 解压 boot9strap ntr `.zip` 然后复制 `boot9strap_ntr.firm` 和 `boot9strap_ntr.firm.sha` 到 SD 卡根目录的 `/ntrboot/` 文件夹
-5. 复制 `ntrboot_flasher.firm` 到 **源3DS** SD 卡的 `/luma/payloads/` 文件夹中
-6. 将 **源 3DS** 的 SD 卡重新插回 **源 3DS**
-7. 将兼容 ntrboot 的 DS / DSi 烧录卡插入 **源 3DS** 中
+1. Power off **the source 3DS**
+1. Insert **the source 3DS**'s SD card into your computer
+1. Create a folder named `ntrboot` on the root of your SD card
+1. Copy `boot9strap_ntr.firm` and `boot9strap_ntr.firm.sha` from the boot9strap ntr `.zip` to the `/ntrboot/` folder on your SD card
+1. Copy `ntrboot_flasher.firm` to the `/luma/payloads/` folder on **the source 3DS**'s SD card
+1. Reinsert **the source 3DS**'s SD card back into **the source 3DS**
+1. Insert your ntrboot compatible DS / DSi flashcart into **the source 3DS**
 
 ### Section II - Flashing ntrboot
 
-1. 在 **源3DS** 开机时按住 “Start” 键，运行 Luma3DS chainloader
-2. 选择 “ntrboot_flasher”
-3. 请仔细阅读警告信息
-4. 按 “A” 键继续
-5. 选择对应你的烧录卡
-    - If you do not see your flashcart in the list at the top, read the bottom screen for more info on each option
-6. 选择 “Dump Flash”
-7. 等待测试完成
-8. 按 “A” 键继续
-9. 按 “A” 键返回主菜单
-10. 选择 “Inject Ntrboot”
-11. 按 “A” 键选择 “retail unit ntrboot”
-12. 等待测试完成
-13. 按 “A” 键返回主菜单
-14. 按 “B” 键关闭 **源 3DS**
+1. Launch the Luma3DS chainloader by holding (Start) during boot on **the source 3DS**
+1. Select "ntrboot_flasher"
+1. Read the red screen warning
+1. Press (A) to continue
+1. Select your flashcart
+    + If you do not see your flashcart in the list at the top, read the bottom screen for more info on each option
+1. Select "Dump Flash"
+1. Wait until the process is completed
+1. Press (A) to continue
+1. Press (A) to return to the main menu
+1. Select "Inject Ntrboot"
+1. Press (A) for retail unit ntrboot
+1. Wait until the process is completed
+1. Press (A) to return to the main menu
+1. Press (B) to power off **the source 3DS**
 
 ___
 
 ::: tip
 
-Continue to [Installing boot9strap (ntrboot)](installing-boot9strap-\(ntrboot\))
+Continue to [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
 
 :::
