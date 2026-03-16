@@ -1,13 +1,9 @@
 ---
-head:
-  [
-    [ 'script', { src: '/assets/js/common.js' } ],
-    [
-        'script',
-        { src: '/assets/js/soundhax-frankenfirm-link.js' }
-      ],
-    [ 'script', { src: '/assets/js/link-common.js' } ]
-  ]
+head: [
+    ['script', {src: '/assets/js/common.js'}],
+    ['script', {src: '/assets/js/soundhax-frankenfirm-link.js'}],
+    ['script', {src: '/assets/js/link-common.js'}],
+]
 ---
 
 # Troubleshooting (Soundhax)
@@ -16,17 +12,17 @@ This page offers troubleshooting advice for commonly encountered issues with the
 
 ## Issues with Soundhax
 
-:::details Red/purple/pink and white screen after running Soundhax
+::: details Red/purple/pink and white screen after running Soundhax
 
 If your console is on system version 9.4.0, 9.5.0, or 9.6.0, you may be encountering a bug with an old version of universal-otherapp. Download the latest version from [here](https://github.com/TuxSH/universal-otherapp/releases/latest).
 
-If your console is not on those firmwares, it likely indicates that you already have custom firmware. 你应该[检查一下](checking-for-cfw)。
+If your console is not on those firmwares, it likely indicates that you already have custom firmware. You should [check for CFW](checking-for-cfw).
 
 :::
 
-:::details "An error has occurred, forcing the software to close..." (white message box)
+::: details "An error has occurred, forcing the software to close..." (white message box)
 
-你放的 `otherapp.bin` 文件有问题（丢失、放错位置或者损坏）。 下载最新版本的 [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) 并将其放在你 SD 卡的根目录中。
+There is an issue with your `otherapp.bin` file (it is missing, misplaced, or corrupted). Download the latest release of [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) and place it on the root of your SD card.
 
 You may also have the wrong Soundhax file for your console, region and version. Verify that your console details are correct and redownload your Soundhax file from [here](http://soundhax.com), then place it on the root of your SD card, replacing the existing one.
 
@@ -36,7 +32,7 @@ If none of these fix your issue, join [Nintendo Homebrew on Discord](https://dis
 
 :::
 
-:::details "Could not play"
+::: details "Could not play"
 
 You have the wrong Soundhax file for your console, region and version. Verify that your console details are correct and redownload your Soundhax file from [here](http://soundhax.com), then place it on the root of your SD card, replacing the existing one.
 
@@ -46,16 +42,15 @@ If none of these fix your issue, join [Nintendo Homebrew on Discord](https://dis
 
 :::
 
-:::details Failed to mount the SD card!
+::: details Failed to mount the SD card!
+Back up your data and reformat your SD card as FAT32 with the recommended tool depending on your operating system ([Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)), [Linux](formatting-sd-(linux))). MiniTool Partition Wizard and the HP formatting tool (HPUSBDisk) are known to cause issues with 3DS SD cards.
 
-如果还是不行，尝试换一张 SD 卡。
+If this is unsuccessful, try using another SD card.
 
 :::
 
 ## Issues with SafeB9SInstaller
-
 <!--@include: ./_include/troubleshooting-sb9si-bin.md -->
-
 <!--@include: ./_include/troubleshooting-sb9si-common.md -->
 
 <!--@include: ./_include/troubleshooting-get-help-common.md -->
@@ -64,7 +59,7 @@ If none of these fix your issue, join [Nintendo Homebrew on Discord](https://dis
 
 ::: tip
 
-Go back to [Installing boot9strap (Soundhax)](installing-boot9strap-\(soundhax\))
+Go back to [Installing boot9strap (Soundhax)](installing-boot9strap-(soundhax))
 
 :::
 

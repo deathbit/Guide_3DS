@@ -46,7 +46,7 @@ In most cases, you can follow this guide as long as you are able to download fil
 
 The location of the SD card slot and the type of SD card that is accepted depends on the model of your 3DS. More information can be found on [Nintendo's official support page](https://en-americas-support.nintendo.com/app/answers/detail/a_id/271/~/how-to-insert-an-sd-card-or-microsd-card).
 
-The 3DS can read SD cards of any capacity (even those larger than 32GB), but the card must be formatted as FAT32 (**not** exFAT or NTFS). You can use one of the following tools to format your SD card, depending on your operating system: [Windows](formatting-sd-\(windows\)), [macOS](formatting-sd-\(mac\)), [Linux](formatting-sd-\(linux\)). SD cards larger than **128GB** are not recommended due to known issues with custom themes and GBA/DS graphics.
+The 3DS can read SD cards of any capacity (even those larger than 32GB), but the card must be formatted as FAT32 (**not** exFAT or NTFS). You can use one of the following tools to format your SD card, depending on your operating system: [Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)), [Linux](formatting-sd-(linux)). SD cards larger than **128GB** are not recommended due to known issues with custom themes and GBA/DS graphics.
 
 ::: info
 
@@ -62,7 +62,7 @@ To follow this guide, you'll need an SD card with a capacity of at least **2GB**
 
 ::: info
 
-If you want, you can check your SD card for errors before following this guide using [H2testw (Windows)](h2testw-\(windows\)), [F3 (Linux)](f3-\(linux\)), or [F3XSwift (Mac)](f3xswift-\(mac\)).
+If you want, you can check your SD card for errors before following this guide using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3XSwift (Mac)](f3xswift-(mac)).
 
 :::
 
@@ -70,11 +70,11 @@ If you want, you can check your SD card for errors before following this guide u
 
 :::: warning
 
-:::details Potential risks (Disclaimer)
+::: details Potential risks (Disclaimer)
 
-By modding your console, you subject it to the remote (but non-zero) possibility of the console being bricked (rendered non-functional). _**Incorrect file placement will NOT brick your console**_, but purposely skipping instructions might.
+By modding your console, you subject it to the remote (but non-zero) possibility of the console being bricked (rendered non-functional). ___Incorrect file placement will NOT brick your console___, but purposely skipping instructions might.
 
-In short: Modding your console is safe, but it's _**your responsibility**_ if something goes wrong.
+In short: Modding your console is safe, but it's ___your responsibility___ if something goes wrong.
 
 :::
 
@@ -87,6 +87,7 @@ In short: Modding your console is safe, but it's _**your responsibility**_ if so
 Following this guide alone should not result in data loss, but SD card corruption is always a possibility. You should make a backup of your SD card contents (especially the `Nintendo 3DS` folder) if you have important data.
 
 :::
+
 
 :::: details What does "root of SD" or "/luma/" mean?
 
@@ -124,7 +125,7 @@ You may also see folder names indicated like this: `/folder/`. The slashes are u
 
 :::
 
-In this guide, you will copy files that are downloaded on your computer/phone to your console's SD card. Many of these files come from GitHub, which is a website used by developers to publish their open-source releases. When downloading files from GitHub, you should download the file that _isn't_ source code.
+In this guide, you will copy files that are downloaded on your computer/phone to your console's SD card. Many of these files come from GitHub, which is a website used by developers to publish their open-source releases. When downloading files from GitHub, you should download the file that *isn't* source code.
 
 ::::
 
@@ -158,7 +159,7 @@ The Windows application "WinRAR" is specifically known to cause compatibility is
 
 :::
 
-If your computer is running Windows, file extensions may be hidden by default, which may make it harder to find the files you're looking for. To enable file extensions, follow [these instructions](file-extensions-\(windows\)).
+If your computer is running Windows, file extensions may be hidden by default, which may make it harder to find the files you're looking for. To enable file extensions, follow [these instructions](file-extensions-(windows)).
 
 ::::
 
@@ -166,9 +167,9 @@ If your computer is running Windows, file extensions may be hidden by default, w
 
 If you experience an issue while following this guide, there are many ways that you can get help!
 
-- If you have any questions that haven't been answered on this page, their answers might be in the [Pre-Installation FAQ](faq#pre-installation-faq).
-- If you experience an issue while following this guide, you can check the [Troubleshooting](troubleshooting) page for a solution.
-- If the resources we've provided here aren't helping, you can get one-on-one support over at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
++ If you have any questions that haven't been answered on this page, their answers might be in the [Pre-Installation FAQ](faq#pre-installation-faq).
++ If you experience an issue while following this guide, you can check the [Troubleshooting](troubleshooting) page for a solution.
++ If the resources we've provided here aren't helping, you can get one-on-one support over at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
 
 ::: tip
 

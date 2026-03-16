@@ -18,11 +18,11 @@ As a part of this process, your system settings will be reset to its defaults. T
 
 ## What You Need
 
-- The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) (the GodMode9 `.zip` file)
-- The latest release of [FBI](https://github.com/nh-server/FBI-NH/releases/download/2.6.1/FBI.3dsx) (direct download)
-- The latest release of [faketik](https://github.com/ihaveamac/faketik/releases/latest) _(the `.3dsx` file)_
-- The latest release of [ctrtransfer.gm9](https://raw.githubusercontent.com/nh-server/scripts/refs/heads/main/3DS/ctrtransfer.gm9) (right click, save link as)
-- The 11.15.0 CTRTransfer image for your console and region
+* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) (the GodMode9 `.zip` file)
+* The latest release of [FBI](https://github.com/nh-server/FBI-NH/releases/download/2.6.1/FBI.3dsx) (direct download)
+* The latest release of [faketik](https://github.com/ihaveamac/faketik/releases/latest) *(the `.3dsx` file)*
+* The latest release of [ctrtransfer.gm9](https://raw.githubusercontent.com/nh-server/scripts/refs/heads/main/3DS/ctrtransfer.gm9) (right click, save link as)
+* The 11.15.0 CTRTransfer image for your console and region
 
     ::: warning
 
@@ -41,7 +41,6 @@ As a part of this process, your system settings will be reset to its defaults. T
 ### Section II - NAND Backup
 
 1. Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9
-
 <!--@include: ./_include/nand-backup.md -->
 
 ### Section III - CTRTransfer

@@ -2,27 +2,27 @@
 
 ## Required Reading
 
-本附加章节是用来介绍如何使用 F3 来检查你的 SD 卡有无问题。
+This is an add-on section for checking your SD card for errors using F3.
 
-这个操作的耗时取决于你的 SD 卡的容量大小和电脑的速度，可能将耗费数个小时完成！
+Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
 
-本页教程仅限 Linux 用户。 如果你不用 Linux，请查阅 [H2testw（windows）](h2testw-\(windows\)) 或 [F3XSwift（Mac）](f3xswift-\(mac\)) 页面。
+This page is for Linux users only. If you are not on Linux, check out the [H2testw (Windows)](h2testw-(windows)) or [F3XSwift (Mac)](f3xswift-(mac)) pages.
 
 ## What You Need
 
-- The latest version of [F3](https://github.com/AltraMayor/f3/releases/latest)
+* The latest version of [F3](https://github.com/AltraMayor/f3/releases/latest)
 
 ## Instructions
 
-1. 将 f3 `.zip` 文件解压
-2. `cd` 到 f3 目录
-3. 执行 `make` 命令以编译 F3
-4. 将你的 SD 卡插入到电脑
-5. 挂载你的 SD 卡
-6. 执行 `./f3write <你 SD 卡的挂载路径>`
-7. 等待，直到该过程已完成。 你可以参考以下范例。
+1. Unzip the f3 `.zip` file
+1. `cd` into the f3 directory
+1. Run `make` to compile F3
+1. Insert your SD card into your computer
+1. Mount your SD card
+1. Run `./f3write <your sd card mount point>`
+1. Wait until the process is complete. See below for an example output.
 
-```bash
+~~~ bash
 $ ./f3write /media/michel/6135-3363/
 Free space: 29.71 GB
 Creating file 1.h2w ... OK!
@@ -30,12 +30,12 @@ Creating file 1.h2w ... OK!
 Creating file 30.h2w ... OK!
 Free space: 0.00 Byte
 Average Writing speed: 4.90 MB/s
-```
+~~~
 
-1. 执行 `./ f3write <你 SD 卡的挂载路径>`
-2. 等待，直到该过程已完成。 你可以参考以下范例。
+1. Run `./f3read <your sd card mount point>`
+1. Wait until the process is complete. See below for an example output.
 
-```bash
+~~~ bash
 $ ./f3read /media/michel/6135-3363/
 									SECTORS      ok/corrupted/changed/overwritten
 Validating file 1.h2w ... 2097152/        0/      0/      0
@@ -48,7 +48,7 @@ Data LOST: 0.00 Byte (0 sectors)
 	Slightly changed: 0.00 Byte (0 sectors)
 				Overwritten: 0.00 Byte (0 sectors)
 Average Reading speed: 9.42 MB/s
-```
+~~~
 
 ___
 
@@ -60,7 +60,7 @@ If the test shows the result `Data LOST: 0.00 Byte (0 sectors)`, your SD card is
 
 ::: danger
 
-如果测试显示任何其他结果，则你的 SD 卡可能已经出错或损坏，你可能需要更换一张 SD卡 ！
+If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
 
 :::
 

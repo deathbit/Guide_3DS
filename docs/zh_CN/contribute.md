@@ -1,6 +1,6 @@
-# 捐助
+# Contribute
 
-We're glad to hear that you'd like to contribute to 3ds.hacks.guide! 你可以做以下内容来帮助我们：
+We're glad to hear that you'd like to contribute to 3ds.hacks.guide! Here are a few ways that you can do so:
 
 ## Maintenance
 
@@ -12,7 +12,7 @@ If you'd like to translate this guide into other languages (or help keep the exi
 
 ## Seeding
 
-本手册中大部分文件只提供 Torrent 种子。 If you'd like to help seed these torrents to ensure their availability in the future, you can download the `.zip` file containing all our `.torrent` files: [torrents.zip](/assets/torrents.zip) (last updated 2023-03-16)
+A number of files on this guide are only available as torrents. If you'd like to help seed these torrents to ensure their availability in the future, you can download the `.zip` file containing all our `.torrent` files: [torrents.zip](/assets/torrents.zip) (last updated 2023-03-16)
 
 There is also an [RSS feed](/rss.xml) that may be updated for future torrents, which you can subscribe to.
 
