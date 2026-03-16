@@ -4,6 +4,7 @@ import hu_HU from './hu_HU'
 import it_IT from './it_IT'
 import ko_KR from './ko_KR'
 import pt_BR from './pt_BR'
+import zh_CN from './zh_CN'
 
 export { 
     en_US,
@@ -11,5 +12,6 @@ export {
     hu_HU,
     it_IT,
     ko_KR,
-    pt_BR
+    pt_BR,
+    zh_CN
 }

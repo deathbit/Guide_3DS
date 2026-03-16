@@ -41,7 +41,8 @@ export default defineConfig({
     hu_HU: i18n.hu_HU,
     it_IT: i18n.it_IT,
     ko_KR: i18n.ko_KR,
-    pt_BR: i18n.pt_BR
+    pt_BR: i18n.pt_BR,
+    zh_CN: i18n.zh_CN
   },
   sitemap: {
     hostname: 'https://3ds.hacks.guide'
@@ -115,7 +116,6 @@ export default defineConfig({
     'tr_TR/**',
     'uk_UA/**',
     'vi_VN/**',
-    'zh_CN/**',
     'zh_TW/**'
   ]
 })
